@@ -1,0 +1,58 @@
+CITY GRAPH:
+
+  0 Jackson_TN
+    1 Chattanooga_TN: 205 miles
+    2 Knoxville_TN: 275 miles
+
+  1 Chattanooga_TN
+    0 Jackson_TN: 205 miles
+    2 Knoxville_TN: 100 miles
+
+  2 Knoxville_TN
+    0 Jackson_TN: 275 miles
+    1 Chattanooga_TN: 100 miles
+    3 New_York_NY: 635 miles
+
+  3 New_York_NY
+    2 Knoxville_TN: 635 miles
+    4 Miami_FL: 1100 miles
+    5 Honolulu_HI: 4985 miles
+    6 Seattle_WA: 2415 miles
+    7 Mexico_City_MX: 2100 miles
+   10 Rio_de_Janeiro_BR: 4850 miles
+   29 Bucarest_RM: 4780 miles
+
+  4 Miami_FL
+    3 New_York_NY: 1100 miles
+    5 Honolulu_HI: 4880 miles
+    6 Seattle_WA: 2745 miles
+    7 Mexico_City_MX: 1290 miles
+   10 Rio_de_Janeiro_BR: 4205 miles
+
+  5 Honolulu_HI
+    3 New_York_NY: 4985 miles
+    4 Miami_FL: 4880 miles
+    6 Seattle_WA: 2695 miles
+    7 Mexico_City_MX: 3805 miles
+   11 Seoul_KR: 4570 miles
+   15 Sydney_AU: 5105 miles
+
+  6 Seattle_WA
+    3 New_York_NY: 2415 miles
+    4 Miami_FL: 2745 miles
+    5 Honolulu_HI: 2695 miles
+    7 Mexico_City_MX: 2355 miles
+
+  7 Mexico_City_MX
+    3 New_York_NY: 2100 miles
+    4 Miami_FL: 1290 miles
+    5 Honolulu_HI: 3805 miles
+    6 Seattle_WA: 2355 miles
+   10 Rio_de_Janeiro_BR: 4800 miles
+
+  8 Santiago_CL
+    9 Buenos_Aires_AR: 710 miles
+
+  9 Buenos_Aires_AR
+    8 Santiago_CL: 710 miles
+

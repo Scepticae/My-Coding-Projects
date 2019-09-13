@@ -1,0 +1,467 @@
+DISTANCE TABLE:
+
+
+  1 Chattanooga_TN to Jackson_TN .........  205 miles
+
+  2 Knoxville_TN to Jackson_TN ...........  275 miles
+  2 Knoxville_TN to Chattanooga_TN .......  100 miles
+
+  3 New_York_NY to Jackson_TN ............  880 miles
+  3 New_York_NY to Chattanooga_TN ........  730 miles
+  3 New_York_NY to Knoxville_TN ..........  635 miles
+
+  4 Miami_FL to Jackson_TN ...............  855 miles
+  4 Miami_FL to Chattanooga_TN ...........  710 miles
+  4 Miami_FL to Knoxville_TN .............  740 miles
+  4 Miami_FL to New_York_NY .............. 1100 miles
+
+  5 Honolulu_HI to Jackson_TN ............ 4250 miles
+  5 Honolulu_HI to Chattanooga_TN ........ 4455 miles
+  5 Honolulu_HI to Knoxville_TN .......... 4515 miles
+  5 Honolulu_HI to New_York_NY ........... 4985 miles
+  5 Honolulu_HI to Miami_FL .............. 4880 miles
+
+  6 Seattle_WA to Jackson_TN ............. 1910 miles
+  6 Seattle_WA to Chattanooga_TN ......... 2095 miles
+  6 Seattle_WA to Knoxville_TN ........... 2120 miles
+  6 Seattle_WA to New_York_NY ............ 2415 miles
+  6 Seattle_WA to Miami_FL ............... 2745 miles
+  6 Seattle_WA to Honolulu_HI ............ 2695 miles
+
+  7 Mexico_City_MX to Jackson_TN ......... 1290 miles
+  7 Mexico_City_MX to Chattanooga_TN ..... 1380 miles
+  7 Mexico_City_MX to Knoxville_TN ....... 1475 miles
+  7 Mexico_City_MX to New_York_NY ........ 2100 miles
+  7 Mexico_City_MX to Miami_FL ........... 1290 miles
+  7 Mexico_City_MX to Honolulu_HI ........ 3805 miles
+  7 Mexico_City_MX to Seattle_WA ......... 2355 miles
+
+  8 Santiago_CL to Jackson_TN ............ 4945 miles
+  8 Santiago_CL to Chattanooga_TN ........ 4855 miles
+  8 Santiago_CL to Knoxville_TN .......... 4900 miles
+  8 Santiago_CL to New_York_NY ........... 5160 miles
+  8 Santiago_CL to Miami_FL .............. 4165 miles
+  8 Santiago_CL to Honolulu_HI ........... 6905 miles
+  8 Santiago_CL to Seattle_WA ............ 6485 miles
+  8 Santiago_CL to Mexico_City_MX ........ 4130 miles
+
+  9 Buenos_Aires_AR to Jackson_TN ........ 5265 miles
+  9 Buenos_Aires_AR to Chattanooga_TN .... 5145 miles
+  9 Buenos_Aires_AR to Knoxville_TN ...... 5175 miles
+  9 Buenos_Aires_AR to New_York_NY ....... 5330 miles
+  9 Buenos_Aires_AR to Miami_FL .......... 4435 miles
+  9 Buenos_Aires_AR to Honolulu_HI ....... 7605 miles
+  9 Buenos_Aires_AR to Seattle_WA ........ 6960 miles
+  9 Buenos_Aires_AR to Mexico_City_MX .... 4620 miles
+  9 Buenos_Aires_AR to Santiago_CL .......  710 miles
+
+ 10 Rio_de_Janeiro_BR to Jackson_TN ...... 5055 miles
+ 10 Rio_de_Janeiro_BR to Chattanooga_TN .. 4890 miles
+ 10 Rio_de_Janeiro_BR to Knoxville_TN .... 4890 miles
+ 10 Rio_de_Janeiro_BR to New_York_NY ..... 4850 miles
+ 10 Rio_de_Janeiro_BR to Miami_FL ........ 4205 miles
+ 10 Rio_de_Janeiro_BR to Honolulu_HI ..... 8335 miles
+ 10 Rio_de_Janeiro_BR to Seattle_WA ...... 6935 miles
+ 10 Rio_de_Janeiro_BR to Mexico_City_MX .. 4800 miles
+ 10 Rio_de_Janeiro_BR to Santiago_CL ..... 1825 miles
+ 10 Rio_de_Janeiro_BR to Buenos_Aires_AR . 1230 miles
+
+ 11 Seoul_KR to Jackson_TN ............... 6925 miles
+ 11 Seoul_KR to Chattanooga_TN ........... 7055 miles
+ 11 Seoul_KR to Knoxville_TN ............. 7025 miles
+ 11 Seoul_KR to New_York_NY .............. 6910 miles
+ 11 Seoul_KR to Miami_FL ................. 7765 miles
+ 11 Seoul_KR to Honolulu_HI .............. 4570 miles
+ 11 Seoul_KR to Seattle_WA ............... 5200 miles
+ 11 Seoul_KR to Mexico_City_MX ........... 7535 miles
+ 11 Seoul_KR to Santiago_CL ..............11475 miles
+ 11 Seoul_KR to Buenos_Aires_AR ..........12145 miles
+ 11 Seoul_KR to Rio_de_Janeiro_BR ........11335 miles
+
+ 12 New_Delhi_IN to Jackson_TN ........... 7950 miles
+ 12 New_Delhi_IN to Chattanooga_TN ....... 7940 miles
+ 12 New_Delhi_IN to Knoxville_TN ......... 7855 miles
+ 12 New_Delhi_IN to New_York_NY .......... 7345 miles
+ 12 New_Delhi_IN to Miami_FL ............. 8440 miles
+ 12 New_Delhi_IN to Honolulu_HI .......... 7445 miles
+ 12 New_Delhi_IN to Seattle_WA ........... 7075 miles
+ 12 New_Delhi_IN to Mexico_City_MX ....... 9160 miles
+ 12 New_Delhi_IN to Santiago_CL ..........10575 miles
+ 12 New_Delhi_IN to Buenos_Aires_AR ...... 9870 miles
+ 12 New_Delhi_IN to Rio_de_Janeiro_BR .... 8795 miles
+ 12 New_Delhi_IN to Seoul_KR ............. 2930 miles
+
+ 13 Singapore_SG to Jackson_TN ........... 9810 miles
+ 13 Singapore_SG to Chattanooga_TN ....... 9910 miles
+ 13 Singapore_SG to Knoxville_TN ......... 9865 miles
+ 13 Singapore_SG to New_York_NY .......... 9580 miles
+ 13 Singapore_SG to Miami_FL .............10605 miles
+ 13 Singapore_SG to Honolulu_HI .......... 6760 miles
+ 13 Singapore_SG to Seattle_WA ........... 8110 miles
+ 13 Singapore_SG to Mexico_City_MX .......10380 miles
+ 13 Singapore_SG to Santiago_CL ..........10250 miles
+ 13 Singapore_SG to Buenos_Aires_AR ...... 9925 miles
+ 13 Singapore_SG to Rio_de_Janeiro_BR .... 9825 miles
+ 13 Singapore_SG to Seoul_KR ............. 2920 miles
+ 13 Singapore_SG to New_Delhi_IN ......... 2585 miles
+
+ 14 Perth_AU to Jackson_TN ...............11065 miles
+ 14 Perth_AU to Chattanooga_TN ...........11270 miles
+ 14 Perth_AU to Knoxville_TN .............11335 miles
+ 14 Perth_AU to New_York_NY ..............11690 miles
+ 14 Perth_AU to Miami_FL .................11445 miles
+ 14 Perth_AU to Honolulu_HI .............. 6820 miles
+ 14 Perth_AU to Seattle_WA ............... 9300 miles
+ 14 Perth_AU to Mexico_City_MX ...........10165 miles
+ 14 Perth_AU to Santiago_CL .............. 7945 miles
+ 14 Perth_AU to Buenos_Aires_AR .......... 7870 miles
+ 14 Perth_AU to Rio_de_Janeiro_BR ........ 8450 miles
+ 14 Perth_AU to Seoul_KR ................. 4885 miles
+ 14 Perth_AU to New_Delhi_IN ............. 4925 miles
+ 14 Perth_AU to Singapore_SG ............. 2450 miles
+
+ 15 Sydney_AU to Jackson_TN .............. 9135 miles
+ 15 Sydney_AU to Chattanooga_TN .......... 9315 miles
+ 15 Sydney_AU to Knoxville_TN ............ 9405 miles
+ 15 Sydney_AU to New_York_NY ............. 9995 miles
+ 15 Sydney_AU to Miami_FL ................ 9390 miles
+ 15 Sydney_AU to Honolulu_HI ............. 5105 miles
+ 15 Sydney_AU to Seattle_WA .............. 7795 miles
+ 15 Sydney_AU to Mexico_City_MX .......... 8110 miles
+ 15 Sydney_AU to Santiago_CL ............. 7095 miles
+ 15 Sydney_AU to Buenos_Aires_AR ......... 7375 miles
+ 15 Sydney_AU to Rio_de_Janeiro_BR ....... 8450 miles
+ 15 Sydney_AU to Seoul_KR ................ 5205 miles
+ 15 Sydney_AU to New_Delhi_IN ............ 6515 miles
+ 15 Sydney_AU to Singapore_SG ............ 3945 miles
+ 15 Sydney_AU to Perth_AU ................ 2055 miles
+
+ 16 Wellington_NZ to Jackson_TN .......... 8125 miles
+ 16 Wellington_NZ to Chattanooga_TN ...... 8270 miles
+ 16 Wellington_NZ to Knoxville_TN ........ 8370 miles
+ 16 Wellington_NZ to New_York_NY ......... 9005 miles
+ 16 Wellington_NZ to Miami_FL ............ 8170 miles
+ 16 Wellington_NZ to Honolulu_HI ......... 4695 miles
+ 16 Wellington_NZ to Seattle_WA .......... 7290 miles
+ 16 Wellington_NZ to Mexico_City_MX ...... 6940 miles
+ 16 Wellington_NZ to Santiago_CL ......... 5845 miles
+ 16 Wellington_NZ to Buenos_Aires_AR ..... 6240 miles
+ 16 Wellington_NZ to Rio_de_Janeiro_BR ... 7420 miles
+ 16 Wellington_NZ to Seoul_KR ............ 6265 miles
+ 16 Wellington_NZ to New_Delhi_IN ........ 7905 miles
+ 16 Wellington_NZ to Singapore_SG ........ 5335 miles
+ 16 Wellington_NZ to Perth_AU ............ 3285 miles
+ 16 Wellington_NZ to Sydney_AU ........... 1390 miles
+
+ 17 Cairo_EG to Jackson_TN ............... 6495 miles
+ 17 Cairo_EG to Chattanooga_TN ........... 6370 miles
+ 17 Cairo_EG to Knoxville_TN ............. 6270 miles
+ 17 Cairo_EG to New_York_NY .............. 5640 miles
+ 17 Cairo_EG to Miami_FL ................. 6520 miles
+ 17 Cairo_EG to Honolulu_HI .............. 8890 miles
+ 17 Cairo_EG to Seattle_WA ............... 6865 miles
+ 17 Cairo_EG to Mexico_City_MX ........... 7730 miles
+ 17 Cairo_EG to Santiago_CL .............. 8000 miles
+ 17 Cairo_EG to Buenos_Aires_AR .......... 7385 miles
+ 17 Cairo_EG to Rio_de_Janeiro_BR ........ 6180 miles
+ 17 Cairo_EG to Seoul_KR ................. 5305 miles
+ 17 Cairo_EG to New_Delhi_IN ............. 2770 miles
+ 17 Cairo_EG to Singapore_SG ............. 5160 miles
+ 17 Cairo_EG to Perth_AU ................. 7040 miles
+ 17 Cairo_EG to Sydney_AU ................ 9010 miles
+ 17 Cairo_EG to Wellington_NZ ............10330 miles
+
+ 18 Johannesburg_SA to Jackson_TN ........ 8750 miles
+ 18 Johannesburg_SA to Chattanooga_TN .... 8545 miles
+ 18 Johannesburg_SA to Knoxville_TN ...... 8485 miles
+ 18 Johannesburg_SA to New_York_NY ....... 8025 miles
+ 18 Johannesburg_SA to Miami_FL .......... 8095 miles
+ 18 Johannesburg_SA to Honolulu_HI .......12005 miles
+ 18 Johannesburg_SA to Seattle_WA ........10315 miles
+ 18 Johannesburg_SA to Mexico_City_MX .... 9115 miles
+ 18 Johannesburg_SA to Santiago_CL ....... 5735 miles
+ 18 Johannesburg_SA to Buenos_Aires_AR ... 5055 miles
+ 18 Johannesburg_SA to Rio_de_Janeiro_BR . 4450 miles
+ 18 Johannesburg_SA to Seoul_KR .......... 7805 miles
+ 18 Johannesburg_SA to New_Delhi_IN ...... 5025 miles
+ 18 Johannesburg_SA to Singapore_SG ...... 5410 miles
+ 18 Johannesburg_SA to Perth_AU .......... 5195 miles
+ 18 Johannesburg_SA to Sydney_AU ......... 6900 miles
+ 18 Johannesburg_SA to Wellington_NZ ..... 7355 miles
+ 18 Johannesburg_SA to Cairo_EG .......... 3915 miles
+
+ 19 Lagos_NG to Jackson_TN ............... 6120 miles
+ 19 Lagos_NG to Chattanooga_TN ........... 5920 miles
+ 19 Lagos_NG to Knoxville_TN ............. 5845 miles
+ 19 Lagos_NG to New_York_NY .............. 5300 miles
+ 19 Lagos_NG to Miami_FL ................. 5660 miles
+ 19 Lagos_NG to Honolulu_HI ..............10195 miles
+ 19 Lagos_NG to Seattle_WA ............... 7500 miles
+ 19 Lagos_NG to Mexico_City_MX ........... 6920 miles
+ 19 Lagos_NG to Santiago_CL .............. 5590 miles
+ 19 Lagos_NG to Buenos_Aires_AR .......... 4945 miles
+ 19 Lagos_NG to Rio_de_Janeiro_BR ........ 3765 miles
+ 19 Lagos_NG to Seoul_KR ................. 7755 miles
+ 19 Lagos_NG to New_Delhi_IN ............. 5055 miles
+ 19 Lagos_NG to Singapore_SG ............. 6960 miles
+ 19 Lagos_NG to Perth_AU ................. 7815 miles
+ 19 Lagos_NG to Sydney_AU ................ 9700 miles
+ 19 Lagos_NG to Wellington_NZ ............10030 miles
+ 19 Lagos_NG to Cairo_EG ................. 2450 miles
+ 19 Lagos_NG to Johannesburg_SA .......... 2815 miles
+
+ 20 Madrid_ES to Jackson_TN .............. 4485 miles
+ 20 Madrid_ES to Chattanooga_TN .......... 4335 miles
+ 20 Madrid_ES to Knoxville_TN ............ 4240 miles
+ 20 Madrid_ES to New_York_NY ............. 3605 miles
+ 20 Madrid_ES to Miami_FL ................ 4430 miles
+ 20 Madrid_ES to Honolulu_HI ............. 7905 miles
+ 20 Madrid_ES to Seattle_WA .............. 5320 miles
+ 20 Madrid_ES to Mexico_City_MX .......... 5665 miles
+ 20 Madrid_ES to Santiago_CL ............. 6685 miles
+ 20 Madrid_ES to Buenos_Aires_AR ......... 6275 miles
+ 20 Madrid_ES to Rio_de_Janeiro_BR ....... 5085 miles
+ 20 Madrid_ES to Seoul_KR ................ 6250 miles
+ 20 Madrid_ES to New_Delhi_IN ............ 4550 miles
+ 20 Madrid_ES to Singapore_SG ............ 7115 miles
+ 20 Madrid_ES to Perth_AU ................ 9135 miles
+ 20 Madrid_ES to Sydney_AU ...............11055 miles
+ 20 Madrid_ES to Wellington_NZ ...........12410 miles
+ 20 Madrid_ES to Cairo_EG ................ 2095 miles
+ 20 Madrid_ES to Johannesburg_SA ......... 5065 miles
+ 20 Madrid_ES to Lagos_NG ................ 2400 miles
+
+ 21 Rome_IT to Jackson_TN ................ 5165 miles
+ 21 Rome_IT to Chattanooga_TN ............ 5035 miles
+ 21 Rome_IT to Knoxville_TN .............. 4940 miles
+ 21 Rome_IT to New_York_NY ............... 4305 miles
+ 21 Rome_IT to Miami_FL .................. 5215 miles
+ 21 Rome_IT to Honolulu_HI ............... 8075 miles
+ 21 Rome_IT to Seattle_WA ................ 5700 miles
+ 21 Rome_IT to Mexico_City_MX ............ 6400 miles
+ 21 Rome_IT to Santiago_CL ............... 7445 miles
+ 21 Rome_IT to Buenos_Aires_AR ........... 6970 miles
+ 21 Rome_IT to Rio_de_Janeiro_BR ......... 5750 miles
+ 21 Rome_IT to Seoul_KR .................. 5605 miles
+ 21 Rome_IT to New_Delhi_IN .............. 3700 miles
+ 21 Rome_IT to Singapore_SG .............. 6260 miles
+ 21 Rome_IT to Perth_AU .................. 8335 miles
+ 21 Rome_IT to Sydney_AU .................10200 miles
+ 21 Rome_IT to Wellington_NZ .............11590 miles
+ 21 Rome_IT to Cairo_EG .................. 1330 miles
+ 21 Rome_IT to Johannesburg_SA ........... 4835 miles
+ 21 Rome_IT to Lagos_NG .................. 2525 miles
+ 21 Rome_IT to Madrid_ES .................  855 miles
+
+ 22 Paris_FR to Jackson_TN ............... 4495 miles
+ 22 Paris_FR to Chattanooga_TN ........... 4375 miles
+ 22 Paris_FR to Knoxville_TN ............. 4275 miles
+ 22 Paris_FR to New_York_NY .............. 3645 miles
+ 22 Paris_FR to Miami_FL ................. 4595 miles
+ 22 Paris_FR to Honolulu_HI .............. 7480 miles
+ 22 Paris_FR to Seattle_WA ............... 5025 miles
+ 22 Paris_FR to Mexico_City_MX ........... 5745 miles
+ 22 Paris_FR to Santiago_CL .............. 7280 miles
+ 22 Paris_FR to Buenos_Aires_AR .......... 6905 miles
+ 22 Paris_FR to Rio_de_Janeiro_BR ........ 5730 miles
+ 22 Paris_FR to Seoul_KR ................. 5605 miles
+ 22 Paris_FR to New_Delhi_IN ............. 4120 miles
+ 22 Paris_FR to Singapore_SG ............. 6705 miles
+ 22 Paris_FR to Perth_AU ................. 8925 miles
+ 22 Paris_FR to Sydney_AU ................10600 miles
+ 22 Paris_FR to Wellington_NZ ............11865 miles
+ 22 Paris_FR to Cairo_EG ................. 2005 miles
+ 22 Paris_FR to Johannesburg_SA .......... 5455 miles
+ 22 Paris_FR to Lagos_NG ................. 2950 miles
+ 22 Paris_FR to Madrid_ES ................  660 miles
+ 22 Paris_FR to Rome_IT ..................  690 miles
+
+ 23 Frankfurt_DE to Jackson_TN ........... 4705 miles
+ 23 Frankfurt_DE to Chattanooga_TN ....... 4595 miles
+ 23 Frankfurt_DE to Knoxville_TN ......... 4500 miles
+ 23 Frankfurt_DE to New_York_NY .......... 3875 miles
+ 23 Frankfurt_DE to Miami_FL ............. 4855 miles
+ 23 Frankfurt_DE to Honolulu_HI .......... 7475 miles
+ 23 Frankfurt_DE to Seattle_WA ........... 5115 miles
+ 23 Frankfurt_DE to Mexico_City_MX ....... 5975 miles
+ 23 Frankfurt_DE to Santiago_CL .......... 7570 miles
+ 23 Frankfurt_DE to Buenos_Aires_AR ...... 7180 miles
+ 23 Frankfurt_DE to Rio_de_Janeiro_BR .... 5990 miles
+ 23 Frankfurt_DE to Seoul_KR ............. 5345 miles
+ 23 Frankfurt_DE to New_Delhi_IN ......... 3825 miles
+ 23 Frankfurt_DE to Singapore_SG ......... 6410 miles
+ 23 Frankfurt_DE to Perth_AU ............. 8655 miles
+ 23 Frankfurt_DE to Sydney_AU ............10300 miles
+ 23 Frankfurt_DE to Wellington_NZ ........11600 miles
+ 23 Frankfurt_DE to Cairo_EG ............. 1825 miles
+ 23 Frankfurt_DE to Johannesburg_SA ...... 5435 miles
+ 23 Frankfurt_DE to Lagos_NG ............. 3050 miles
+ 23 Frankfurt_DE to Madrid_ES ............  905 miles
+ 23 Frankfurt_DE to Rome_IT ..............  600 miles
+ 23 Frankfurt_DE to Paris_FR .............  300 miles
+
+ 24 Oslo_NO to Jackson_TN ................ 4455 miles
+ 24 Oslo_NO to Chattanooga_TN ............ 4380 miles
+ 24 Oslo_NO to Knoxville_TN .............. 4285 miles
+ 24 Oslo_NO to New_York_NY ............... 3695 miles
+ 24 Oslo_NO to Miami_FL .................. 4750 miles
+ 24 Oslo_NO to Honolulu_HI ............... 6825 miles
+ 24 Oslo_NO to Seattle_WA ................ 4580 miles
+ 24 Oslo_NO to Mexico_City_MX ............ 5745 miles
+ 24 Oslo_NO to Santiago_CL ............... 7955 miles
+ 24 Oslo_NO to Buenos_Aires_AR ........... 7655 miles
+ 24 Oslo_NO to Rio_de_Janeiro_BR ......... 6515 miles
+ 24 Oslo_NO to Seoul_KR .................. 4820 miles
+ 24 Oslo_NO to New_Delhi_IN .............. 3740 miles
+ 24 Oslo_NO to Singapore_SG .............. 6280 miles
+ 24 Oslo_NO to Perth_AU .................. 8665 miles
+ 24 Oslo_NO to Sydney_AU ................. 9965 miles
+ 24 Oslo_NO to Wellington_NZ .............11045 miles
+ 24 Oslo_NO to Cairo_EG .................. 2285 miles
+ 24 Oslo_NO to Johannesburg_SA ........... 6070 miles
+ 24 Oslo_NO to Lagos_NG .................. 3740 miles
+ 24 Oslo_NO to Madrid_ES ................. 1495 miles
+ 24 Oslo_NO to Rome_IT ................... 1255 miles
+ 24 Oslo_NO to Paris_FR ..................  840 miles
+ 24 Oslo_NO to Frankfurt_DE ..............  690 miles
+
+ 25 Moscow_RU to Jackson_TN .............. 5415 miles
+ 25 Moscow_RU to Chattanooga_TN .......... 5355 miles
+ 25 Moscow_RU to Knoxville_TN ............ 5260 miles
+ 25 Moscow_RU to New_York_NY ............. 4695 miles
+ 25 Moscow_RU to Miami_FL ................ 5765 miles
+ 25 Moscow_RU to Honolulu_HI ............. 7075 miles
+ 25 Moscow_RU to Seattle_WA .............. 5230 miles
+ 25 Moscow_RU to Mexico_City_MX .......... 6700 miles
+ 25 Moscow_RU to Santiago_CL ............. 8830 miles
+ 25 Moscow_RU to Buenos_Aires_AR ......... 8420 miles
+ 25 Moscow_RU to Rio_de_Janeiro_BR ....... 7215 miles
+ 25 Moscow_RU to Seoul_KR ................ 4130 miles
+ 25 Moscow_RU to New_Delhi_IN ............ 2715 miles
+ 25 Moscow_RU to Singapore_SG ............ 5260 miles
+ 25 Moscow_RU to Perth_AU ................ 7635 miles
+ 25 Moscow_RU to Sydney_AU ............... 9060 miles
+ 25 Moscow_RU to Wellington_NZ ...........10345 miles
+ 25 Moscow_RU to Cairo_EG ................ 1815 miles
+ 25 Moscow_RU to Johannesburg_SA ......... 5725 miles
+ 25 Moscow_RU to Lagos_NG ................ 3910 miles
+ 25 Moscow_RU to Madrid_ES ............... 2150 miles
+ 25 Moscow_RU to Rome_IT ................. 1485 miles
+ 25 Moscow_RU to Paris_FR ................ 1555 miles
+ 25 Moscow_RU to Frankfurt_DE ............ 1265 miles
+ 25 Moscow_RU to Oslo_NO ................. 1025 miles
+
+ 26 Helsinki_FI to Jackson_TN ............ 4865 miles
+ 26 Helsinki_FI to Chattanooga_TN ........ 4800 miles
+ 26 Helsinki_FI to Knoxville_TN .......... 4705 miles
+ 26 Helsinki_FI to New_York_NY ........... 4135 miles
+ 26 Helsinki_FI to Miami_FL .............. 5205 miles
+ 26 Helsinki_FI to Honolulu_HI ........... 6845 miles
+ 26 Helsinki_FI to Seattle_WA ............ 4795 miles
+ 26 Helsinki_FI to Mexico_City_MX ........ 6150 miles
+ 26 Helsinki_FI to Santiago_CL ........... 8425 miles
+ 26 Helsinki_FI to Buenos_Aires_AR ....... 8090 miles
+ 26 Helsinki_FI to Rio_de_Janeiro_BR ..... 6925 miles
+ 26 Helsinki_FI to Seoul_KR .............. 4410 miles
+ 26 Helsinki_FI to New_Delhi_IN .......... 3265 miles
+ 26 Helsinki_FI to Singapore_SG .......... 5790 miles
+ 26 Helsinki_FI to Perth_AU .............. 8185 miles
+ 26 Helsinki_FI to Sydney_AU ............. 9500 miles
+ 26 Helsinki_FI to Wellington_NZ .........10675 miles
+ 26 Helsinki_FI to Cairo_EG .............. 2115 miles
+ 26 Helsinki_FI to Johannesburg_SA ....... 6005 miles
+ 26 Helsinki_FI to Lagos_NG .............. 3900 miles
+ 26 Helsinki_FI to Madrid_ES ............. 1845 miles
+ 26 Helsinki_FI to Rome_IT ............... 1375 miles
+ 26 Helsinki_FI to Paris_FR .............. 1195 miles
+ 26 Helsinki_FI to Frankfurt_DE ..........  945 miles
+ 26 Helsinki_FI to Oslo_NO ...............  490 miles
+ 26 Helsinki_FI to Moscow_RU .............  560 miles
+
+ 27 Copenhagen_DK to Jackson_TN .......... 4655 miles
+ 27 Copenhagen_DK to Chattanooga_TN ...... 4565 miles
+ 27 Copenhagen_DK to Knoxville_TN ........ 4470 miles
+ 27 Copenhagen_DK to New_York_NY ......... 3865 miles
+ 27 Copenhagen_DK to Miami_FL ............ 4895 miles
+ 27 Copenhagen_DK to Honolulu_HI ......... 7130 miles
+ 27 Copenhagen_DK to Seattle_WA .......... 4865 miles
+ 27 Copenhagen_DK to Mexico_City_MX ...... 5945 miles
+ 27 Copenhagen_DK to Santiago_CL ......... 7890 miles
+ 27 Copenhagen_DK to Buenos_Aires_AR ..... 7540 miles
+ 27 Copenhagen_DK to Rio_de_Janeiro_BR ... 6370 miles
+ 27 Copenhagen_DK to Seoul_KR ............ 4965 miles
+ 27 Copenhagen_DK to New_Delhi_IN ........ 3655 miles
+ 27 Copenhagen_DK to Singapore_SG ........ 6225 miles
+ 27 Copenhagen_DK to Perth_AU ............ 8560 miles
+ 27 Copenhagen_DK to Sydney_AU ...........10025 miles
+ 27 Copenhagen_DK to Wellington_NZ .......11225 miles
+ 27 Copenhagen_DK to Cairo_EG ............ 2005 miles
+ 27 Copenhagen_DK to Johannesburg_SA ..... 5765 miles
+ 27 Copenhagen_DK to Lagos_NG ............ 3460 miles
+ 27 Copenhagen_DK to Madrid_ES ........... 1300 miles
+ 27 Copenhagen_DK to Rome_IT .............  955 miles
+ 27 Copenhagen_DK to Paris_FR ............  640 miles
+ 27 Copenhagen_DK to Frankfurt_DE ........  420 miles
+ 27 Copenhagen_DK to Oslo_NO .............  305 miles
+ 27 Copenhagen_DK to Moscow_RU ...........  975 miles
+ 27 Copenhagen_DK to Helsinki_FI .........  550 miles
+
+ 28 Edinburgh_UK to Jackson_TN ........... 4090 miles
+ 28 Edinburgh_UK to Chattanooga_TN ....... 3990 miles
+ 28 Edinburgh_UK to Knoxville_TN ......... 3890 miles
+ 28 Edinburgh_UK to New_York_NY .......... 3275 miles
+ 28 Edinburgh_UK to Miami_FL ............. 4290 miles
+ 28 Edinburgh_UK to Honolulu_HI .......... 6935 miles
+ 28 Edinburgh_UK to Seattle_WA ........... 4495 miles
+ 28 Edinburgh_UK to Mexico_City_MX ....... 5370 miles
+ 28 Edinburgh_UK to Santiago_CL .......... 7375 miles
+ 28 Edinburgh_UK to Buenos_Aires_AR ...... 7085 miles
+ 28 Edinburgh_UK to Rio_de_Janeiro_BR .... 5965 miles
+ 28 Edinburgh_UK to Seoul_KR ............. 5375 miles
+ 28 Edinburgh_UK to New_Delhi_IN ......... 4265 miles
+ 28 Edinburgh_UK to Singapore_SG ......... 6830 miles
+ 28 Edinburgh_UK to Perth_AU ............. 9175 miles
+ 28 Edinburgh_UK to Sydney_AU ............10545 miles
+ 28 Edinburgh_UK to Wellington_NZ ........11485 miles
+ 28 Edinburgh_UK to Cairo_EG ............. 2465 miles
+ 28 Edinburgh_UK to Johannesburg_SA ...... 6000 miles
+ 28 Edinburgh_UK to Lagos_NG ............. 3460 miles
+ 28 Edinburgh_UK to Madrid_ES ............ 1080 miles
+ 28 Edinburgh_UK to Rome_IT .............. 1205 miles
+ 28 Edinburgh_UK to Paris_FR .............  545 miles
+ 28 Edinburgh_UK to Frankfurt_DE .........  640 miles
+ 28 Edinburgh_UK to Oslo_NO ..............  585 miles
+ 28 Edinburgh_UK to Moscow_RU ............ 1570 miles
+ 28 Edinburgh_UK to Helsinki_FI .......... 1065 miles
+ 28 Edinburgh_UK to Copenhagen_DK ........  615 miles
+
+ 29 Bucarest_RM to Jackson_TN ............ 5600 miles
+ 29 Bucarest_RM to Chattanooga_TN ........ 5500 miles
+ 29 Bucarest_RM to Knoxville_TN .......... 5400 miles
+ 29 Bucarest_RM to New_York_NY ........... 4780 miles
+ 29 Bucarest_RM to Miami_FL .............. 5760 miles
+ 29 Bucarest_RM to Honolulu_HI ........... 7935 miles
+ 29 Bucarest_RM to Seattle_WA ............ 5830 miles
+ 29 Bucarest_RM to Mexico_City_MX ........ 6875 miles
+ 29 Bucarest_RM to Santiago_CL ........... 8140 miles
+ 29 Bucarest_RM to Buenos_Aires_AR ....... 7640 miles
+ 29 Bucarest_RM to Rio_de_Janeiro_BR ..... 6415 miles
+ 29 Bucarest_RM to Seoul_KR .............. 4960 miles
+ 29 Bucarest_RM to New_Delhi_IN .......... 3005 miles
+ 29 Bucarest_RM to Singapore_SG .......... 5580 miles
+ 29 Bucarest_RM to Perth_AU .............. 7755 miles
+ 29 Bucarest_RM to Sydney_AU ............. 9520 miles
+ 29 Bucarest_RM to Wellington_NZ .........10910 miles
+ 29 Bucarest_RM to Cairo_EG .............. 1040 miles
+ 29 Bucarest_RM to Johannesburg_SA ....... 4910 miles
+ 29 Bucarest_RM to Lagos_NG .............. 2975 miles
+ 29 Bucarest_RM to Madrid_ES ............. 1545 miles
+ 29 Bucarest_RM to Rome_IT ...............  710 miles
+ 29 Bucarest_RM to Paris_FR .............. 1170 miles
+ 29 Bucarest_RM to Frankfurt_DE ..........  910 miles
+ 29 Bucarest_RM to Oslo_NO ............... 1255 miles
+ 29 Bucarest_RM to Moscow_RU .............  935 miles
+ 29 Bucarest_RM to Helsinki_FI ........... 1095 miles
+ 29 Bucarest_RM to Copenhagen_DK .........  985 miles
+ 29 Bucarest_RM to Edinburgh_UK .......... 1510 miles
+
