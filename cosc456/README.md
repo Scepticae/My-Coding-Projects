@@ -20,7 +20,7 @@ University of Tennessee. The assignments included are:
 	effect. Some improvements or updates would be to
 	add a special effect like some animation.
 
-Code Style: Standard c/c++
+Code Style: Standard opengl, webgl, html, php, javascript
 
 Credits: All programs in the folder come from the Systems
 Programming course at the University of Tennessee
