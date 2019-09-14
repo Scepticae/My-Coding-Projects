@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import numpy as np
 import die_graphics as dg
 from graphics import GraphWin, Point
