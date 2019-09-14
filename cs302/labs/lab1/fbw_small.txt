@@ -1,0 +1,11 @@
+plantains         0.56     1.44
+cherries          1.48     4.81
+grapes_white      1.15     3.77
+bananas           0.95     0.72
+apples_fuji       2.00     1.69
+bananas           1.04     0.72
+apples_jazz       0.95     2.19
+apples_fuji       0.63     1.69
+pears_bosc        1.40     1.29
+apricots          1.33     1.24
+apples_gala       1.79     1.09

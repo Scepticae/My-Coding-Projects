@@ -1,0 +1,12 @@
+oranges_naval      4     0.99
+pineapples         9     4.25
+raspberries        6     3.25
+blackberries       7     2.50
+blackberries       1     2.50
+strawberries       6     3.99
+blueberries        5     2.50
+raspberries        6     3.25
+blueberries        8     2.50
+kiwis              4     0.49
+blueberries        7     2.50
+kiwis              2     0.49

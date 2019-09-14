@@ -1,0 +1,5 @@
+128   0 128 # purple
+255  69   0 # orange
+255  20 147 # pink
+255 255 204 # yellow
+224 224 224 # silver
