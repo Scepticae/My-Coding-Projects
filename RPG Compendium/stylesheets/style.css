@@ -1,0 +1,67 @@
+/*########## Defaults ##########*/
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/DandD.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+button {
+  background-color: rgb(90, 90, 90);
+  padding: 5px;
+  width: 100px;
+  margin-top: 15px;
+  border-radius: 7px;
+}
+
+div form {
+  padding-top: 8%;
+}
+
+div form h1 {
+  color: white;
+  margin: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*########## Custom Styles ##########*/
+h1.title {
+  padding-top: 5%;
+  color: white;
+  font-size: 7vw;
+}
+
+input.curved {
+  padding: 5px;
+  background-color: whitesmoke;
+  border-radius: 7px;
+}
+
+input:hover {
+  background-color: lightgray;
+}
+
+button:hover {
+  background-color: rgb(177, 174, 174);
+}
+
+form div a {
+  display: block;
+  color: white;
+  margin-top: 15px;
+}
+
+form div a:hover {
+  color: darkblue;
+}
+
+/*########## Sign-In Block ##########*/
