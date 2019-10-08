@@ -1,0 +1,58 @@
+body {
+  background-color: darkgray;
+  margin: 0;
+}
+
+header {
+  display: block;
+  height: 100px;
+  width: 100%;
+  background-color: darkslategrey;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  background-color: rgb(235, 228, 219);
+  font-size: 56px;
+  color: darkslategrey;
+  padding: 10px;
+  margin: 0;
+}
+
+form {
+  background-color: beige;
+  padding: 15px;
+}
+
+h3 {
+  background-color: rgb(224, 211, 193);
+  color: darkslategrey;
+  font-size: 24px;
+  padding: 10px;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  color: darkslategrey;
+}
+
+input[type="text"] {
+  color: darkslategrey;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px black;
+}
+
+input[type="text"]:hover {
+  background-color: lightgray;
+}
+
+input[type="submit"]:hover {
+  background-color: darkgrey;
+}
