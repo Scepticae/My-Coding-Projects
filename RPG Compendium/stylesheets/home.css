@@ -40,7 +40,7 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   margin: 0;
-  padding: 15px;
+  padding: 16.2px;
 }
 
 nav ul li.nav-right {
@@ -50,4 +50,40 @@ nav ul li.nav-right {
 nav ul li a:hover {
   background-color: black;
   color: darkgrey;
+}
+
+button {
+  display: block;
+  color: black;
+  min-height: 16px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  background: none;
+  padding: 15px;
+  border: none;
+}
+
+button:hover {
+  background-color: black;
+  color: darkgrey;
+}
+
+div {
+  display: none;
+  background-color: darkgray;
+  width: fit-content;
+}
+
+div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div ul li {
+  text-align: left;
+  margin: 0;
+  padding: 3px;
+  padding-left: 10px;
 }
