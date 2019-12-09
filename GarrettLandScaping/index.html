@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Garrett Landscaping</title>
+    <link rel="stylesheet" href="Stylesheets/style.css">
+  </head>
+
+  <body>
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-1">
+              <img src="Images/bladesOfGrassLogo.jpg" alt="Landscape Image">
+            </div>
+          <div class="col-4 centerText">
+            <h1>GARRETT</h1>
+          </div>
+          <div class="col-1">
+            <img src="Images/bladesOfGrassLogo.jpg" alt="Landscape Image">
+          </div>
+          <div class="col-3"></div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2>Lawn and Landscaping Design LLC.</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <ul class="topnav" id="dropdownClick">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+        <li class="topnav-right"><a href="#signin">Sign In</a></li>
+        <li class="dropdownIcon" onclick="dropdownMenu()"><a href="javascript:void(0);">&#9776</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="mainSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img src="Images/landscapingImage.jpg" alt="Landscaping">
+            <a href="#"><h2>Landscaping</h2></a>
+          </div>
+          <div class="col-4">
+            <img src="Images/retainingWall.jpg" alt="Retaining Walls">
+            <a href="#"><h2>Retaining Walls</h2></a>
+          </div>
+          <div class="col-4">
+            <img src="Images/lawncare.jpg" alt="Lawn Care">
+            <a href="#"><h2>Lawn Care</h2></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a href="#"><h3>Landscaping Info</h3></a>
+            <a href="#"><h3>About the Company</h3></a>
+            <a href="#"><h3>Contact Info</h3></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function dropdownMenu(){
+        var x = document.getElementById("dropdownClick");
+        /* Change topnav to topnav.responsive */
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        }else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,194 @@
+/*########## Defaults ##########*/
+nav, header, footer {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*########## Banner ##########*/
+.banner {
+  margin: 0;
+  padding: 0;
+  background-color: darkgreen;
+  line-height: 0;
+}
+
+.centerText {
+  margin: auto;
+}
+
+.banner h1 {
+  font-family: cursive sans-serif;
+  font-style: italic;
+  font-size: 5rem;
+  color: antiquewhite;
+  text-align: center;
+  padding-top: 6%;
+  text-shadow: 2px 2px black;
+}
+
+.banner h2 {
+  font-family: cursive sans-serif;
+  font-style: italic;
+  font-size: 3rem;
+  color: antiquewhite;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/*########## Nav Bar ##########*/
+nav {
+  width: 100%;
+  margin: 0;
+}
+
+nav ul {
+  background-color: rgb(5, 49, 5);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+
+ul.topnav li.topnav-right {
+  float: right;
+}
+
+ul.topnav li a {
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  text-align: center;
+  padding: 14px;
+  text-transform: uppercase;
+  color: antiquewhite;
+}
+
+ul.topnav li a:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+ul.topnav li.dropdownIcon {
+  display: none;
+}
+
+/*########## Main Section #########*/
+.mainSection {
+  background-color: darkolivegreen;
+  padding-top: 4%;
+}
+
+.mainSection img {
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.mainSection h2 {
+  color: antiquewhite;
+  text-align: center;
+}
+
+.mainSection h2:hover {
+  color: rgb(5, 49, 5);
+}
+
+.mainSection a {
+  text-decoration: none;
+}
+
+/*########## Footer ##########*/
+.footer {
+  background-color: rgb(5, 49, 5);
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer h3 {
+  color: antiquewhite;
+  text-align: center;
+}
+
+.footer h3:hover {
+  color: darkolivegreen;
+}
+
+/*########## Container ##########*/
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+/*########## Rows ##########*/
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.row::after{
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/*########## Columns ###########*/
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+/*########## Mobile ##########*/
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+
+  ul.topnav li.dropdownIcon {
+    display: block;
+    float: right;
+  }
+
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  ul.topnav.responsive {
+    position: relative;
+  }
+
+  ul.topnav.responsive li {
+    display: inline;
+    float: none;
+  }
+
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
