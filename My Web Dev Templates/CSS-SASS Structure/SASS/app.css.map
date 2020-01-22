@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "app.sass",
+        "base/_base-dir.sass",
+        "base/_base.sass",
+        "layouts/_layouts-dir.sass",
+        "layouts/_header.sass",
+        "layouts/_footer.sass",
+        "modules/_modules-dir.sass",
+        "modules/_button.sass",
+        "modules/_navbar.sass"
+    ],
+    "names": [],
+    "file": "app.css"
+}

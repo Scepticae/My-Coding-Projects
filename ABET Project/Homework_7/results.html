@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!--
+    Author: Samuel Leonard
+    UserID: sleonar5
+    Class: CS465
+    Assignment: Homework 6
+    Results Page
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="results.css">
+        <title>ABET Validator Menu</title>
+    </head>
+
+    <header>
+        <h1>University of Tennessee ABET Course Verifier</h1>
+    </header>
+
+    <body>
+        <img src="abet_logo-whitetext.png" alt="ABET Logo" class="logo">
+        
+        <!--Builds the Courses Dropdown Menu-->
+		<form action="save.php" method="post">
+        <div class="droppad">
+            <div>
+                <label for="courses" class="dropsize">Courses</label>
+            </div>
+            <select name="Courses" id="courses" class="dropsize">
+                <option value="COSC312">CS312</option>
+                <option value="COSC340">CS340</option>
+                <option value="COSC360">CS360</option>
+                <option value="COSC365">CS365</option>
+                <option value="COSC395">CS395</option>
+                <option value="COSC402">CS402</option>
+                <option value="ECE255">ECE255</option>
+                <option value="ECE256">ECE256</option>
+                <option value="ECE315">ECE315</option>
+                <option value="ECE325">ECE325</option>
+                <option value="ECE335">ECE335</option>
+                <option value="ECE342">ECE342</option>
+                <option value="ECE351">ECE351</option>
+                <option value="ECE395">ECE395</option>
+                <option value="ECE402">ECE402</option>
+            </select>
+			<div>
+                <label for="major" class="dropsize">Major</label>
+            </div>
+			<select name="Major" id="major" class="dropsize">
+                <option value="CS">Computer Science</option>
+                <option value="CpE">Computer Engineering</option>
+                <option value="EE">Electrical Engineering</option>
+			</select>
+        </div>
+
+        <!--Builds the Outcomes Dropdown Menu-->
+        <div class="droppad">
+            <div>
+                <label for="outcomes" class="dropsize">Student Outcomes</label>
+            </div>
+            <select name="Outcomes" id="outcomes" class="dropsize">
+                <option value="C1">CS 1. Analyze a computing problem and apply principles 
+                    of computing to identify solutions</option>
+                <option value="C2">CS 2. Design a computing-based solution to meet requirements</option>
+                <option value="C3">CS 3. Communicate effectively</option>
+                <option value="C4">CS 4. Recognize professional responsibilities</option>
+                <option value="C5">CS 5. Function effectively on teams</option>
+                <option value="C6">CS 6. Apply theory and software development fundamentals to produce
+                     computing-based solutions</option>
+                <option value="E1">ECE 1. Solve problems</option>
+                <option value="E2">ECE 2. Design</option>
+                <option value="E3">ECE 3. Communicate</option>
+                <option value="E4">ECE 4. Ethics</option>
+                <option value="E5">ECE 5. Teams</option>
+                <option value="E6">ECE 6. Conduct experiments</option>
+                <option value="E7">ECE 7. Life-long learning</option>
+            </select>
+        </div>
+        <!--Creates the Assessment Form-->
+        <div class="padForm">
+            <form class="formattr">
+                <!--Creates the Expectations Section-->
+                <h2>Assessment Data Entry</h2>
+                <section>
+                    <h3>Student Outcome: Communicate effectively in a variety of professional contexts</h3>
+                    <div class="formTextSize">
+                        <div class="droppad">
+                            <label for="NME">Does Not Meet Expectation</label>
+                            <input type="number" name="NME" class="numbox">
+                        </div>
+                        <div class="droppad">
+                            <label for="ME">Meets Expectation</label>
+                            <input type="number" name="ME" class="numbox">
+                        </div>
+                        <div class="droppad">
+                            <label for="EE">Exceeds Expectation</label>
+                            <input type="number" name="EE" class="numbox">
+                        </div>
+                        <div class="droppad">
+                            <input type="submit" value="Submit" class="button" disabled>
+                        </div>
+                    </div>
+                <!--Creates the Assessment Choice Section-->
+                </section>
+                <h3>Assessments for Outcome</h3>
+                <section>
+                    <div class="formTextSize">
+                        <div class="droppad">
+                            <!--Dropdown for Previous or Custom Assessments-->
+                            <div>
+                                <label for="assessments">Previous Assessments</label>
+                            </div>
+                            <select name="Assessments" id="assessments" class="formTextSize">
+                                <option value="ass1">Assessment Fall 2016</option>
+                                <option value="ass2">Assessment Spring 2017</option>
+                                <option value="ass3">Assessment Fall 2018</option>
+                                <option value="cust">Custom</option>
+                            </select>
+                            <!--Select or Remove Previous Assessments or Select Custom-->
+                            <div class="padTop">
+                                <input type="submit" value="Select" class="button" disabled>
+                                <input type="submit" value="Remove" class="button" disabled>
+                            </div>
+                        </div>
+                        <div class="droppad">
+                            <!--Dropdown for Different Assessment Types or Choose Custom-->
+                            <div>
+                                <label for="assessTypes">Assessment Types</label>
+                            </div>
+                            <select name="AssessTypes" id="assessTypes" class="formTextSize">
+                                <option value="1">Exam</option>
+                                <option value="2">Quiz</option>
+                                <option value="3">Homework</option>
+                                <option value="4">Lab</option>
+								<option value="5">Programming Assignment</option>
+								<option value="6">Project</option>
+								<option value="7">Document</option>
+								<option value="8">Presentation</option>
+								<option value="9">Performance</option>
+                                <option value="cust">Custom</option>
+                            </select>
+                            <!--Select or Remove Types or Create Custom-->
+                            <div class="padTop">
+                                <input type="submit" value="Select" class="button" disabled>
+                                <input type="submit" value="Remove" class="button" disabled>
+                            </div>
+                        </div>
+                        <div class="droppad">
+                            <!--Description for Selected Assessment Type or Enter New Description-->
+                            <div>
+                                <label for="description">Description (max char. 200)</label>
+                            </div>
+                            <div>
+                                <textarea id="description" name="AssessmentDescription" 
+                                placeholder="Preliminary Project Design Document" class="description"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Creates Section for Weights to be Given to Selected Assessment Types-->
+                    <div class="droppad formTextSize padTop">
+                        <!--Currently Fixed Values, but Will Eventually Show User Selected Assessment Types-->
+                        <div>
+                            <label for="curAssess">Selected Assessments</label>
+                        </div>
+                        <ol>
+                            <li>Written Component for Preliminary Design Document</li>
+                            <li>Written Component for Final Design Document</li>
+                            <li>Oral Presentation for Final Design Document</li>
+                            <li>Poster Presentation</li>
+                        </ol>
+                    </div>
+                    <!--Creates the Weights Section-->
+                    <div class="droppad formTextSize">
+                        <div>
+                            <label for="weights">Weights</label>
+                        </div>
+                        <!--Weights are in Decimal Values and will Eventually Range between 0 and 1-->
+                        <div>
+                            <input type="number" name="Weight" step="0.01" placeholder="0.25" class="numbox">
+                        </div>
+                        <div>
+                            <input type="number" step="0.01" placeholder="0.25" class="numbox" disabled>
+                        </div>
+                        <div>
+                            <input type="number" step="0.01" placeholder="0.25" class="numbox" disabled>
+                        </div>
+                        <div>
+                            <input type="number" step="0.01" placeholder="0.25" class="numbox" disabled>
+                        </div>
+                    </div>
+                    <!--Creates the Rubric Section-->
+                    <div>
+                        <div class="droppad formTextSize vertAlignTop">
+                            <!--Dropdown for Preloaded or Custom Rubrics-->
+                            <div>
+                                <label for="rubrics">Rubrics</label>
+                            </div>
+                            <select name="Rubrics" id="rubrics" class="formTextSize">
+                                <option value="CS1-FA18">CS Outcome 1 Fall 2018</option>
+								<option value="CS2-FA18">CS Outcome 2 Fall 2018</option>
+								<option value="CS3-FA18">CS Outcome 3 Fall 2018</option>
+								<option value="CS4-FA18">CS Outcome 4 Fall 2018</option>
+								<option value="CS5-FA18">CS Outcome 5 Fall 2018</option>
+								<option value="CS6-FA18">CS Outcome 6 Fall 2018</option>
+								<option value="EC1-FA18">ECE Outcome 1 Fall 2018</option>
+								<option value="EC2-FA18">ECE Outcome 2 Fall 2018</option>
+								<option value="EC3-FA18">ECE Outcome 3 Fall 2018</option>
+								<option value="EC4-FA18">ECE Outcome 4 Fall 2018</option>
+								<option value="EC5-FA18">ECE Outcome 5 Fall 2018</option>
+								<option value="EC6-FA18">ECE Outcome 6 Fall 2018</option>
+								<option value="EC7-FA18">ECE Outcome 7 Fall 2018</option>
+                                <option value="rubcust">Custom</option>
+                            </select>
+                            <!--Select Previous, Custom or Remove Selected Rubric-->
+                            <div class="padTop">
+                                <input type="submit" value="Select" class="button" disabled>
+                                <input type="submit" value="Remove" class="button" disabled>
+                            </div>
+                            <!--Choose to Save or Clear the Form Data-->
+                            <div class="vertAlignBottom formTextSize instrWidth">
+                                <p>Choose save to keep your form data or choose 
+                                    clear to erase your form data and start over</p>
+                                <input type="submit" value="Save" class="button">
+                                <input type="submit" value="Clear" class="button" disabled>
+                            </div>
+                        </div>
+                        <!--Displays the Selected Rubrics, will have Custom Functionality Eventually-->
+                        <div class="droppad formTextSize">
+                            <div>
+                                <label for="selectedRubric">Selected Rubric</label>
+                            </div>
+                            <ul>
+                                <li><strong>Exceeds Expectations:</strong>
+                                    <ul>
+                                        <li>Submits well-written, well-organized, and well reasoned documents</li>
+                                        <li>Speaks clearly and articulately during presentations</li>
+                                        <li>Prepares visual aids that complement, support, and significantly 
+                                            enhance either the written or oral presentation</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Meets Expectations:</strong>
+                                    <ul>
+                                        <li>Submits written documents that communicate the relevant material but
+                                            may have some grammatical errors, may have some sections that seem out 
+                                            of place, may not make points as clearly as might be possible, or may 
+                                            lack some appropriate citations</li>
+                                        <li>Communicates adequately during oral presentations but some aspects of the 
+                                            presentation, such as pacing, organization, clarity of speaking, reading 
+                                            from notes, or facing the audience rather than slides can be improved</li>
+                                        <li>Prepares visual aids that usually complement and support the written or 
+                                            oral presentation, but some may lack effectiveness because they are too 
+                                            busy, visually unappealing, or do not present information in the most 
+                                            effective manner</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Doesn't Meet Expectations:</strong>
+                                    <ul>
+                                        <li>Submits poorly written, poorly organized, poorly reasoned, and/or poorly 
+                                            supported (inadequate citations) documents</li>
+                                        <li>Communicates ineffectively during oral presentations because many elements 
+                                            of the presentation are executed poorly, such as improper pacing, confused 
+                                            organization, lack of clarity while speaking, excessive reading from notes, 
+                                            or not facing the audience</li>
+                                        <li>Prepares visual aids that either do not aid or detract from the written or 
+                                            oral presentation, because they are too busy, visually unappealing, or present 
+                                            information ineffectively</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </form>
+        </div>
+		</form>
+    </body>
+</html>

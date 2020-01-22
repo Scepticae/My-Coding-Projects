@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+    Author: Samuel Leonard
+    UserID: sleonar5
+    Class: CS465
+    Assignment: Homework 8 Part A
+    deal.html, deal.css, deal.js
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="deal.css">
+		<script type="text/javascript" src="deal.js"></script>
+        <title>DEAL</title>
+    </head>
+	
+	<header>Wanna Make a DEAL!</header>
+	
+	<body>
+		<div class="middle">
+			<label for="offer">Offer</label>
+			<input type="text" id="offer" class="size" disabled>
+		</div>
+		<div class="middle">
+			<button type="button" id="button1" onclick="button1()" disabled><p>1</p></button>
+			<button type="button" id="button2" onclick="button2()" disabled><p>2</p></button>
+			<button type="button" id="button3" onclick="button3()" disabled><p>3</p></button>
+			<button type="button" id="button4" onclick="button4()" disabled><p>4</p></button>
+			<button type="button" id="button5" onclick="button5()" disabled><p>5</p></button>
+		</div>
+		<div class="middle">
+			<button type="button" id="button6" onclick="button6()" disabled><p>6</p></button>
+			<button type="button" id="button7" onclick="button7()" disabled><p>7</p></button>
+			<button type="button" id="button8" onclick="button8()" disabled><p>8</p></button>
+			<button type="button" id="button9" onclick="button9()" disabled><p>9</p></button>
+			<button type="button" id="button10" onclick="button10()" disabled><p>10</p></button>
+		</div>
+		<div class="bottom">
+			<div class="instructions">
+				<ul><h3>INSTRUCTIONS:</h3>
+					<li>Press the 'Start Button'</li>
+					<li>Select a Suitcase (Number Block)
+						<ul>
+							<li>Keep Suitcase till End of Game AND</li>
+							<li>Recieve Value in Case OR</li>
+							<li>Sell Suitcase to Banker AND</li>
+							<li>Games Over, YOU get Sale Total</li>
+						</ul>
+					</li>
+					<li>Each Round, Select a Suitcase that is not Yours</li>
+					<li>An offer from the Banker will Appear</li>
+					<li>Take the Offer or Keep Your Suitcase</li>
+					<li>If Keep, a Value for the Suitcase Chosen Appears</li>
+					<li>Each Time a Value is Revealed, the Checkbox <br>fills that Value</li>
+					<li>Keep Going until all Boxes have been Selected OR</li>
+					<li>A Deal was Made and Games Ends</li>
+				</ul>
+			</div>
+			<div class="inline">
+				<button type="button" id="deal" onclick="madeDeal()" disabled>DEAL</button>
+				<button type="button" id="start" onclick="startGame()">Start New Game</button>
+			</div>
+			<div class="checkbox">
+				<input type="checkbox" name="box1" id="b1" value="0.01" disabled> $0.01<br>
+				<input type="checkbox" name="box2" id="b2" value="1" disabled> $1<br>
+				<input type="checkbox" name="box3" id="b3" value="5" disabled> $5<br>
+				<input type="checkbox" name="box4" id="b4" value="10" disabled> $10<br>
+				<input type="checkbox" name="box5" id="b5" value="100" disabled> $100<br>
+				<input type="checkbox" name="box6" id="b6" value="1000" disabled> $1000<br>
+				<input type="checkbox" name="box7" id="b7" value="10000" disabled> $10000<br>
+				<input type="checkbox" name="box8" id="b8" value="100000" disabled> $100000<br>
+				<input type="checkbox" name="box9" id="b9" value="500000" disabled> $500000<br>
+				<input type="checkbox" name="box10" id="b10" value="1000000" disabled> $1000000<br>
+			</div>
+		<div>
+	</body>
+</html>

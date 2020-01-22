@@ -1,0 +1,55 @@
+/*
+Author: Samuel Leonard
+UserID: sleonar5
+Class: CS465
+Assignment: Homework 6
+Login Style Sheet
+*/
+
+body {
+    background-color: rgb(255, 130, 0);
+    text-align: center;
+}
+
+section {
+    display: inline-block;
+}
+
+header {
+    background-color: white;
+    line-height: 50px;
+}
+
+.pad {
+    padding-top: 40px;
+}
+
+.imgAttr {
+    width: auto;
+    height: auto;
+    opacity: 0.4;
+	max-width: 500px;
+	min-height: 600px;
+	vertical-align: top;
+}
+
+.imgpad {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.row {
+	display: inline-flex;
+}
+
+body.logError {
+	background-color: rgb(255, 130, 0);
+	text-align: left;
+}
+
+#error-msg {
+	background-color: yellow;
+	border: 1px solid red;
+	color: red;
+	padding: 2px 2px;
+}

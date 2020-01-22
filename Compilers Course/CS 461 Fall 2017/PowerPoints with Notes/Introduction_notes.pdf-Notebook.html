@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "XHTML1-s.dtd" >
+<html xmlns="http://www.w3.org/TR/1999/REC-html-in-xml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+<style>
+.bodyContainer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.notebookFor {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    margin: 24px 0px 0px;
+    padding: 0px;
+}
+
+.bookTitle {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #333333;
+    margin-top: 22px;
+    padding: 0px;
+}
+
+.authors {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(119, 119, 119);
+    margin-top: 22px;
+    margin-bottom: 24px; 
+    padding: 0px;
+}
+
+.sectionHeading {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+    margin-top: 24px;
+    padding: 0px;
+}
+
+.noteHeading {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #333333;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.noteText {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #333333;
+    margin: 2px 0px 0px;
+    padding: 0px;
+}
+
+.highlight_blue {
+    color: rgb(178, 205, 251);
+}
+
+.highlight_orange {
+    color: #ffd7ae;
+}
+
+.highlight_pink {
+    color: rgb(255, 191, 206);
+}
+
+.highlight_yellow {
+    color: rgb(247, 206, 0);
+}
+
+.notebookGraphic {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.notebookGraphic img {
+    -o-box-shadow:      0px 0px 5px #888;
+    -icab-box-shadow:   0px 0px 5px #888;
+    -khtml-box-shadow:  0px 0px 5px #888;
+    -moz-box-shadow:    0px 0px 5px #888;
+    -webkit-box-shadow: 0px 0px 5px #888;
+    box-shadow:         0px 0px 5px #888; 
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 0px none;
+    height: 1px;
+    background: none repeat scroll 0% 0% rgb(221, 221, 221);
+}
+</style>
+</head>
+<body>
+<div class='bodyContainer'>
+<div class='notebookFor'>Notebook for</div><div class='bookTitle'>Introduction_notes.pdf
+</div><div class='authors'>
+
+</div><hr/>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 3</div><div class='noteText'>A compiler is a translator program</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 3</div><div class='noteText'>a source-to-source translator which may be useful for high-level optimizations, or even for languages,</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 3</div><div class='noteText'>a binary-to-binary translator is useful for low-level optimizations, and for running programs on different architectures, like that done in VMs.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 3</div><div class='noteText'>a compiler's source language is a high level programming language and its target language is assembly or machine code.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 4</div><div class='noteText'>The first compiler was written in 1952 by a woman named Grace Hopper.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 4</div><div class='noteText'>She is credited with popularizing the term &quot;debugging&quot;</div>
+<div class='noteHeading'>Note - Page 6</div><div class='noteText'>Some challenges for the compiler:
+     Performance
+     Security, Safety and trustworthiness
+     Multi-Core
+
+</div>
+<div class='noteHeading'>Note - Page 7</div><div class='noteText'>Most chips now are comprised of multi-cores.
+     This is due to power constraints, scaleing frequency and transistor size.</div>
+<div class='noteHeading'>Note - Page 7</div><div class='noteText'>It is difficult to write code for multicore systems because:
+     Race Conditions
+     Difficulty in debugging
+     Using all the cores (100% utilization)
+We rely on compilers for help.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 8</div><div class='noteText'>particular, the compiler is a bridge between programming languages and computer architecture.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 8</div><div class='noteText'>Programming languages – stack frames, scope, type checking, etc. Computer architecture – target language, code generation, machine-specific optimizations</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 8</div><div class='noteText'>instruction set architecture – which has to do with the language the hardware understands – but not the micro-architecture.</div>
+<div class='noteHeading'>Note - Page 8</div><div class='noteText'>Intel uses x86 architecture which is its ISA, however there are updates to its micro-architecture for its individual chips.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_blue'>blue</span>) - Page 8</div><div class='noteText'>Formal languages - lexical analysis and parsing Algorithms - analysis for optimizations, enforcing semantic constraints Graph theory - flow analysis, optimizations Software engineering - large amount of code to be written</div>
+<div class='noteHeading'>Note - Page 9</div><div class='noteText'>Preprocessor: expands macros, gets included files.
+Compiler: converts to assembly.
+Assembler: produces re-locatable machine code.
+Linker: fills in placeholders with absolute addresses.
+      If too large a file, a link editor is used
+Loader: Loads the executable into memory for running.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 10</div><div class='noteText'>'gcc -E hello.c' --&gt; produces file after preprocessing</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 10</div><div class='noteText'>'gcc -S hello.c' --&gt; produce assembly file</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 10</div><div class='noteText'>'gcc -c hello.c' --&gt; object code file after assembly (before linking)</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 10</div><div class='noteText'>'gcc -o hello.exe hello.c' --&gt; executable file after linking</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 10</div><div class='noteText'>'./hello.exe' --&gt; loading and execution</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 13</div><div class='noteText'>Why would we use interpretation? A. Flexibility, portability.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 14</div><div class='noteText'>Compiler produces assembly, while the interpreter has a fetch-decode-execute loop.]</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 15</div><div class='noteText'>Q. Name one character that is not a part of the C language? A. '@' or '\$' will be detected as invalid character by the lexer.</div>
+<div class='noteHeading'>Note - Page 15</div><div class='noteText'>Parser:
+     1. Check for correct syntax.
+     2. put the program into a tranlatable data structure such as a parse tree</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 18</div><div class='noteText'>The front end is basically responsible for analysis: that is breaking up the parts of the program and imposing a structure on them. And the back end (or synthesis part) builds up the target program from the intermediate language and the information in the symbol table.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_blue'>blue</span>) - Page 18</div><div class='noteText'>In the front end, scanner generators (like lex) produce lexical analyzers, which use specifications based on regular expressions.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_blue'>blue</span>) - Page 18</div><div class='noteText'>Parser generators (like yacc) produce syntax analyzers, which use specifications based on context free grammars.</div>
+<div class='noteHeading'>Note - Page 20</div><div class='noteText'>We write front ends for different languages being able to map to same intermediate form.
+We write the back ends for the different machine architecture.</div>
+<div class='noteHeading'>Note - Page 22</div><div class='noteText'>Analysis: breaks down into smaller pieces.
+Synthesis: Build up from smaller pieces.
+We break down the original code to be built up into the target.</div>
+<div class='noteHeading'>Note - Page 26</div><div class='noteText'>Three parts of analysis:
+     1. Linear Analysis (lex) breaks up into tokens
+     2. Hierarchial (parsing) groups the tokens together
+     3. Semantic (syntax) error checking the tokens</div>
+<div class='noteHeading'>Note - Page 28</div><div class='noteText'>Intermediate Code Generation: Target of the front ends and input to the back ends.
+      - Machine independent
+      - Easily translatable into assembly and machine code</div>
+<div class='noteHeading'>Note - Page 29</div><div class='noteText'>Code Optimization: faster, less power, less space.
+      - Bigger programs have the opportunity for more cache misses, taking more time.</div>
+<div class='noteHeading'>Highlight (<span class='highlight_yellow'>yellow</span>) - Page 36</div><div class='noteText'>Assemblers typically make 2 passes through the input assembly code.</div>
+<div class='noteHeading'>Note - Page 36</div><div class='noteText'>Assembler pass 1: put tokens into symbol table.
+Assembler pass 2: convert symbols to machine code.</div>
+</div> 
+</body> 
+</html> 
