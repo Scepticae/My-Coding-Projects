@@ -15,8 +15,8 @@ int main(){
 
   newNums = reverseInterleaveArray(nums);
 
-  for (int j = 0; j < newNums.size(); j++) {
-    cout << newNums[j];
+  for (int num:newNums) {
+    cout << num;
   }
 }
 
