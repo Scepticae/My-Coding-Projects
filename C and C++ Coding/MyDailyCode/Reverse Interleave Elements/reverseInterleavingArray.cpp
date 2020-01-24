@@ -31,19 +31,18 @@ vector<int> reverseInterleaveArray (vector<int> numbers) {
   //Iterate through the vector and interleave back half with front half
   for(i = 1; i < numbers.size(); i++){
     //Check to make sure i is in the first half of the vector
-    if(i < numbers.size() / 2){
+    if(i <= (numbers.size() / 2)){
+      n_queue.push(numbers[i]);
       //Check for every other value
       if(((i + 1) % 2) == 0){
         //Store the current element and copy the current back element with
         //the current element
-        n_queue.push(numbers[i]);
         numbers[i] = numbers[n - count];
         count++;
       }
       //Otherwise, queue the current element and dequeue the front to current
       //position
       else{
-        n_queue.push(numbers[i]);
         numbers[i] = n_queue.front();
         n_queue.pop();
       }
