@@ -1,0 +1,37 @@
+Program Description:
+
+Given a stack of N elements, interleave the first half of the stack with the
+second half reversed using only one other queue. This should be done in-place.
+
+Recall that you can only push or pop from a stack, and enqueue or dequeue from a queue.
+
+For example, if the stack is [1, 2, 3, 4, 5], it should become [1, 5, 2, 4, 3].
+If the stack is [1, 2, 3, 4], it should become [1, 4, 2, 3].
+
+Hint: Try working backwards from the end state.
+
+Program Planning:
+
+1. Input - an array
+   Output - an array with second half interleaved with first half in reverse <i class="fa fa-first-order
+
+2. Take in array, perhaps template it to handle any values.
+
+3. Create a queue
+
+4. Create variables count and N
+     count to increment each time the back of array is copied in place to the front half
+     n to hold the value of half the array
+
+5. Create a for loop to iterate through the numbers array
+     check for iteration in the first half of array
+     check if iteration is even
+       if so, queue the current array element
+       copy the item from the back to the current
+       increment the count to keep track of items brought from the back of array
+     if not even
+       queue the current element
+       dequeue into current element place
+     if not first half
+       check for odd
+         dequeue into odd location
