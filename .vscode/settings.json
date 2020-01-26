@@ -2,7 +2,7 @@
   "python.pythonPath": "C:\\Users\\samue\\Anaconda3\\python.exe",
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
-  "python.linting.pep8Enabled": false,
+  "python.linting.pycodestyleEnabled": false,
   "cSpell.ignoreWords": [
     "aliqua",
     "aliquip",
