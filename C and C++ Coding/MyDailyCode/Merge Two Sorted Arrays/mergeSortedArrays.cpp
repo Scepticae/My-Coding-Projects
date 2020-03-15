@@ -28,10 +28,10 @@ int *mergeSortedArrays(int *first, int *second){
   int s_count = 0;
   int *merged;
 
-  length1 = sizeof(first)/sizeof(first[0]);
-  length2 = sizeof(second)/sizeof(second[0]);
+  length1 = size(first);
+  length2 = sizeof(second);
   total = length1 + length2;
-  cout << total;
+  cout << length1;
 
   merged = new int [total];
 
