@@ -261,8 +261,8 @@ footer {
 
 .carousel-container button {
   position: absolute;
-  background: none;
   color: whitesmoke;
+  background: none;
   font-size: 1.2rem;
   border: none;
   cursor: pointer;
@@ -280,22 +280,41 @@ footer {
   outline: none;
 }
 
+.control-btn {
+  padding: 5px;
+  width: 30px;
+}
+
+.control-btn:active {
+  background-color: rgba(73, 72, 70, 0.3);
+}
+
 .prev-btn {
   top: 50%;
-  left: 0.5%;
+  left: 1.75%;
   transform: translateY(-50%);
 }
 
 .next-btn {
   top: 50%;
-  right: 2.5%;
+  right: 1.75%;
   transform: translateY(-50%);
 }
 
 .close-btn {
-  left: 50%;
-  bottom: 1.5%;
-  transform: translateX(-50%);
+  right: 0;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.close-img {
+  width: 15px;
+  padding: 5px;
+}
+
+.close-img:hover {
+  background-color: red;
 }
 
 .carousel-container .close-btn:hover {
@@ -361,6 +380,14 @@ footer {
     height: 60%;
   }
 
+  .next-btn {
+    right: 1%;
+  }
+
+  .prev-btn {
+    left: 1%;
+  }
+
   .footer-links {
     padding: 25px;
   }
@@ -402,5 +429,13 @@ footer {
   .carousel-container {
     top: 30%;
     height: 40%;
+  }
+
+  .next-btn {
+    right: -1%;
+  }
+
+  .prev-btn {
+    left: -1%;
   }
 }
