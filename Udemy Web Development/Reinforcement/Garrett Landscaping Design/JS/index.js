@@ -41,16 +41,6 @@ function showGallery(){
   gallery.show();
 }
 
-//Fade the current image out
-function fadeOutImg(){
-  $(".carousel-img").fadeOut(250);
-}
-
-//Change to previous or next image and fade it in
-function fadeInImg(){
-  $(".carousel-img").attr("src", gallerySelection[currentImage]).fadeIn(250);
-}
-
 //Display the selected carousel-container when image clicked
 imageGalleries.click(function(e){
   currentImage = 0;
@@ -68,20 +58,18 @@ closeButton.click(function(){
 
 //Move to next image when next button clicked
 nextButton.click(function(){
-  fadeOutImg();
   currentImage++;
   if(currentImage === gallerySelection.length){
     currentImage = 0;
   }
-  setTimeout(fadeInImg, 250);
+  $(".carousel-img").attr("src", gallerySelection[currentImage]);
 });
 
 //Move to previous image when previous button clicked
 prevButton.click(function(){
-  fadeOutImg();
   currentImage--;
   if(currentImage < 0){
     currentImage = gallerySelection.length - 1;
   }
-  setTimeout(fadeInImg, 250);
+  $(".carousel-img").attr("src", gallerySelection[currentImage]);
 });
