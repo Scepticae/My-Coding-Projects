@@ -71,6 +71,10 @@ p {
   color: rgb(158, 157, 154);
 }
 
+.dropdownIcon {
+  display: none;
+}
+
 
 /* Services Section */
 .services-section {
@@ -407,6 +411,10 @@ footer {
 @media screen and (max-width: 600px){
   .heading {
     font-size: 3rem;
+  }
+
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
   }
 
   .image-blocks div {
