@@ -26,11 +26,9 @@ p {
 
 /* Title Section */
 .title-section {
-  background: linear-gradient(90deg, rgba(15, 15, 15, 0.7) 0%, rgba(255, 255, 255, 0) 100%), url("../Images/titleImage.jpg");
+  background: linear-gradient(90deg, rgba(15, 15, 15, 0.8) 0%, rgba(255, 255, 255, 0) 60%), url("../Images/titleImage.jpg");
   background-repeat: no-repeat;
-  background-size: 150%;
-  background-position: left, left;
-  height: 150%;
+  background-position: 10% 10%;
 }
 
 .banner {
@@ -336,6 +334,14 @@ footer {
 
 /* Media Queries for changing screen sizes */
 @media screen and (max-width: 1300px){
+  .heading {
+    font-size: 3.5rem;
+  }
+
+  .title-section {
+    background-position: 28% 22%;
+  }
+
   .image-blocks div {
     width: 33%;
   }
@@ -365,7 +371,11 @@ footer {
   }
 
   .heading {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+
+  .title-section {
+    background-position: 28% 22%;
   }
 
   .image-blocks div {
@@ -415,7 +425,11 @@ footer {
 
 @media screen and (max-width: 600px){
   .heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+
+  .title-section {
+    background-position: 28% 22%;
   }
 
   ul.topnav li:not(:nth-child(1)) {
@@ -445,6 +459,7 @@ footer {
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
+    padding: 5px 0 5px 15px;
   }
 
   .image-blocks div {
