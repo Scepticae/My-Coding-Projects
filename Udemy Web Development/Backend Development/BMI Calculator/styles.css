@@ -1,0 +1,49 @@
+body {
+  background-color: slategrey;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: darkred;
+  margin: 0;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: darkblue;
+}
+
+form {
+  margin: 30px;
+}
+
+button {
+  width: 160px;
+  background-color: darkred;
+  color: antiquewhite;
+}
+
+button:hover {
+  background-color: rgb(139, 35, 35);
+}
+
+button:active {
+  background-color: darkred;
+}
+
+.btn {
+  padding: 5px 0;
+  margin: 25px 30px 25px 0;
+}
+
+.banner {
+  background-color: darkcyan;
+}
+
+.container {
+  background-color: darkcyan;
+}

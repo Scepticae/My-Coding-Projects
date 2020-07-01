@@ -2,6 +2,7 @@ body {
   background-color: #E5E5E5;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -26,6 +27,10 @@ p {
 /* Title Section */
 .title-section {
   background: linear-gradient(90deg, rgba(15, 15, 15, 0.7) 0%, rgba(255, 255, 255, 0) 100%), url("../Images/titleImage.jpg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: left, left;
+  height: 150%;
 }
 
 .banner {
@@ -415,6 +420,31 @@ footer {
 
   ul.topnav li:not(:nth-child(1)) {
     display: none;
+  }
+
+  ul.topnav li.dropdownIcon {
+    float: right;
+    display: block;
+  }
+
+  ul.topnav.responsive {
+    position: relative;
+  }
+
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
   }
 
   .image-blocks div {

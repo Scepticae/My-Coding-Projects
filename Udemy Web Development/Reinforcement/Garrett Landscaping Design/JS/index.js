@@ -73,3 +73,20 @@ prevButton.click(function(){
   }
   $(".carousel-img").attr("src", gallerySelection[currentImage]);
 });
+
+
+function toggleMenu(){
+  if(navbar.hasClass("responsive")){
+    navbar.removeClass("responsive");
+  }
+  else{
+    navbar.addClass("responsive");
+  }
+}
+
+//Smaller screen navbar handler
+var icon = $(".dropdownIcon");
+var navbar = $("#dropdownClick");
+
+//Add responsive class to topnav when hamburger menu clicked
+icon.on("click", toggleMenu);
