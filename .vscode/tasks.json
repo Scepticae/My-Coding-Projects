@@ -2,24 +2,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build",
       "type": "shell",
-      "command": "msbuild",
-      "args": [
-        "/property:GenerateFullPaths=true",
-        "/t:build",
-        "/consoleloggerparameters:NoSummary"
-      ],
-      "group": "build",
-      "presentation": {
-        "reveal": "silent"
-      },
-      "problemMatcher": "$msCompile"
-    },
-    {
-      "type": "shell",
-      "label": "g++.exe build active file",
-      "command": "C:\\MinGW\\bin\\g++.exe",
+      "label": "C/C++: g++.exe build active file",
+      "command": "C:\\MinGW\bin",
       "args": [
         "-g",
         "${file}",
@@ -27,7 +12,14 @@
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
       "options": {
-        "cwd": "C:\\MinGW\\bin"
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
       }
     }
   ]
