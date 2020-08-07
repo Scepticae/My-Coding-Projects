@@ -1,8 +1,6 @@
-var number = "";
+var number = "0";
 var numbers = [];
-var operators = [];
-var num1 = 0;
-var num2 = 0;
+var num = 0;
 var result = 0;
 var opPressed = false;
 
@@ -19,21 +17,18 @@ function showNumber(pressed) {
   if(pressed === "C") {
     number = "0";
     numbers = [];
-    operators = [];
-    num1 = 0;
-    num2 = 0;
+    num = 0;
     result = 0;
     opPressed = false;
   }
-  else if(pressed === "+" || pressed === "-" || pressed === "*" || pressed === "/") {
+  else if(pressed === "+" || pressed === "-" || pressed === "*" || pressed === "/" || pressed === "=") {
     if(numbers.length < 1) {
-      num1 = Number(number);
-      numbers.push(num1);
-      operators.push(pressed);
+      num = Number(number);
+      numbers.push(num);
     }
     else {
-      num2 = Number(number);
-      numbers.push(num2);
+      num = Number(number);
+      numbers.push(num);
 
       if(pressed === "+") {
         result = add(numbers);
@@ -47,25 +42,9 @@ function showNumber(pressed) {
       else if(pressed === "/") {
         result = divide(numbers);
       }
-
-      number = String(result);
-      numbers.pop();
-      numbers.pop();
-      operators.pop();
-      numbers.push(result);
     }
-
-    opPressed = true;
   }
   else {
-    if(opPressed === true){
-      number = "";
-      opPressed = false;
-    }
-    else if(number === "0"){
-      number = "";
-    }
-
     number += pressed;
   }
 
